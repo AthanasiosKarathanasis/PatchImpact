@@ -1,0 +1,2 @@
+#define patchimpact_v16_VERSION_MAJOR @patchimpact_v16_VERSION_MAJOR@
+#define patchimpact_v16_VERSION_MINOR @patchimpact_v16_VERSION_MINOR@
