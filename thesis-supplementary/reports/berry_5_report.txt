@@ -1,0 +1,2965 @@
+PatchImpact v0.41.0
+Measuring Software Patch Impact in Open Source Projects :
+A Heuristic-Based Evaluation Framework
+By Athanasios Karathanasis
+Folder comparison mode
+Original folder: "/home/nasos/ThesisDatasets/bugscpp/berry/buggy-5"
+Patched folder:  "/home/nasos/ThesisDatasets/bugscpp/berry/fixed-5"
+
+Comparing source files by relative path
+
+Matched files:
+  MATCH: "default/be_modtab.c" -> "default/be_modtab.c"
+    Status: unchanged
+    Original size: 1741 bytes
+    Patched size:  1741 bytes
+    Original complexity: 0
+    Patched complexity:  0
+    Complexity change:   0
+    Original functions:  0
+    Patched functions:   0
+    Function change:     0
+    Original SLOC:       44
+    Patched SLOC:        44
+    SLOC change:         0
+    Original comments:   15
+    Patched comments:    15
+    Comment change:      0
+    Original blanks:     6
+    Patched blanks:      6
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 98.62
+    Patched maintainability:  98.62
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        0
+    Original cppcheck information:  1
+    Original cppcheck total:        1
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        0
+    Patched cppcheck information:  1
+    Patched cppcheck total:        1
+    Cppcheck total change: 0
+  MATCH: "default/be_port.c" -> "default/be_port.c"
+    Status: unchanged
+    Original size: 8330 bytes
+    Patched size:  8330 bytes
+    Original complexity: 29
+    Patched complexity:  29
+    Complexity change:   0
+    Original functions:  21
+    Patched functions:   21
+    Function change:     0
+    Original SLOC:       331
+    Patched SLOC:        331
+    SLOC change:         0
+    Original comments:   10
+    Patched comments:    10
+    Comment change:      0
+    Original blanks:     65
+    Patched blanks:      65
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 17.88
+    Patched maintainability:  17.88
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        22
+    Original cppcheck information:  9
+    Original cppcheck total:        31
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        22
+    Patched cppcheck information:  9
+    Patched cppcheck total:        31
+    Cppcheck total change: 0
+  MATCH: "default/berry.c" -> "default/berry.c"
+    Status: unchanged
+    Original size: 10464 bytes
+    Patched size:  10464 bytes
+    Original complexity: 54
+    Patched complexity:  54
+    Complexity change:   0
+    Original functions:  14
+    Patched functions:   14
+    Function change:     0
+    Original SLOC:       284
+    Patched SLOC:        284
+    SLOC change:         0
+    Original comments:   45
+    Patched comments:    45
+    Comment change:      0
+    Original blanks:     24
+    Patched blanks:      24
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 55.82
+    Patched maintainability:  55.82
+    Maintainability change:   0
+    Original cppcheck errors:       1
+    Original cppcheck warnings:     0
+    Original cppcheck style:        0
+    Original cppcheck information:  7
+    Original cppcheck total:        8
+    Patched cppcheck errors:       1
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        0
+    Patched cppcheck information:  7
+    Patched cppcheck total:        8
+    Cppcheck total change: 0
+  MATCH: "default/berry_conf.h" -> "default/berry_conf.h"
+    Status: unchanged
+    Original size: 5705 bytes
+    Patched size:  5705 bytes
+    Original complexity: 0
+    Patched complexity:  0
+    Complexity change:   0
+    Original functions:  0
+    Patched functions:   0
+    Function change:     0
+    Original SLOC:       40
+    Patched SLOC:        40
+    SLOC change:         0
+    Original comments:   120
+    Patched comments:    120
+    Comment change:      0
+    Original blanks:     23
+    Patched blanks:      23
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 100
+    Patched maintainability:  100
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        0
+    Original cppcheck information:  1
+    Original cppcheck total:        1
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        0
+    Patched cppcheck information:  1
+    Patched cppcheck total:        1
+    Cppcheck total change: 0
+  MATCH: "src/be_api.c" -> "src/be_api.c"
+    Status: unchanged
+    Original size: 27924 bytes
+    Patched size:  27924 bytes
+    Original complexity: 213
+    Patched complexity:  213
+    Complexity change:   0
+    Original functions:  112
+    Patched functions:   112
+    Function change:     0
+    Original SLOC:       1023
+    Patched SLOC:        1023
+    SLOC change:         0
+    Original comments:   21
+    Patched comments:    21
+    Comment change:      0
+    Original blanks:     114
+    Patched blanks:      114
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 0
+    Patched maintainability:  0
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        132
+    Original cppcheck information:  7
+    Original cppcheck total:        139
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        132
+    Patched cppcheck information:  7
+    Patched cppcheck total:        139
+    Cppcheck total change: 0
+  MATCH: "src/be_baselib.c" -> "src/be_baselib.c"
+    Status: unchanged
+    Original size: 8486 bytes
+    Patched size:  8486 bytes
+    Original complexity: 74
+    Patched complexity:  74
+    Complexity change:   0
+    Original functions:  24
+    Patched functions:   24
+    Function change:     0
+    Original SLOC:       290
+    Patched SLOC:        290
+    SLOC change:         0
+    Original comments:   35
+    Patched comments:    35
+    Comment change:      0
+    Original blanks:     26
+    Patched blanks:      26
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 44.7
+    Patched maintainability:  44.7
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        2
+    Original cppcheck information:  6
+    Original cppcheck total:        8
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        2
+    Patched cppcheck information:  6
+    Patched cppcheck total:        8
+    Cppcheck total change: 0
+  MATCH: "src/be_bytecode.c" -> "src/be_bytecode.c"
+    Status: unchanged
+    Original size: 15425 bytes
+    Patched size:  15425 bytes
+    Original complexity: 87
+    Patched complexity:  87
+    Complexity change:   0
+    Original functions:  38
+    Patched functions:   38
+    Function change:     0
+    Original SLOC:       494
+    Patched SLOC:        494
+    SLOC change:         0
+    Original comments:   10
+    Patched comments:    10
+    Comment change:      0
+    Original blanks:     43
+    Patched blanks:      43
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 21.62
+    Patched maintainability:  21.62
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        6
+    Original cppcheck information:  7
+    Original cppcheck total:        13
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        6
+    Patched cppcheck information:  7
+    Patched cppcheck total:        13
+    Cppcheck total change: 0
+  MATCH: "src/be_bytecode.h" -> "src/be_bytecode.h"
+    Status: unchanged
+    Original size: 643 bytes
+    Patched size:  643 bytes
+    Original complexity: 0
+    Patched complexity:  0
+    Complexity change:   0
+    Original functions:  0
+    Patched functions:   0
+    Function change:     0
+    Original SLOC:       7
+    Patched SLOC:        7
+    SLOC change:         0
+    Original comments:   7
+    Patched comments:    7
+    Comment change:      0
+    Original blanks:     3
+    Patched blanks:      3
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 90.56
+    Patched maintainability:  90.56
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        1
+    Original cppcheck information:  4
+    Original cppcheck total:        5
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        1
+    Patched cppcheck information:  4
+    Patched cppcheck total:        5
+    Cppcheck total change: 0
+  MATCH: "src/be_byteslib.c" -> "src/be_byteslib.c"
+    Status: unchanged
+    Original size: 21534 bytes
+    Patched size:  21534 bytes
+    Original complexity: 138
+    Patched complexity:  138
+    Complexity change:   0
+    Original functions:  44
+    Patched functions:   44
+    Function change:     0
+    Original SLOC:       559
+    Patched SLOC:        559
+    SLOC change:         0
+    Original comments:   80
+    Patched comments:    80
+    Comment change:      0
+    Original blanks:     54
+    Patched blanks:      54
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 0
+    Patched maintainability:  0
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     1
+    Original cppcheck style:        8
+    Original cppcheck information:  8
+    Original cppcheck total:        17
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     1
+    Patched cppcheck style:        8
+    Patched cppcheck information:  8
+    Patched cppcheck total:        17
+    Cppcheck total change: 0
+  MATCH: "src/be_class.c" -> "src/be_class.c"
+    Status: unchanged
+    Original size: 6903 bytes
+    Patched size:  6903 bytes
+    Original complexity: 44
+    Patched complexity:  44
+    Complexity change:   0
+    Original functions:  15
+    Patched functions:   15
+    Function change:     0
+    Original SLOC:       218
+    Patched SLOC:        218
+    SLOC change:         0
+    Original comments:   11
+    Patched comments:    11
+    Comment change:      0
+    Original blanks:     16
+    Patched blanks:      16
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 30.74
+    Patched maintainability:  30.74
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        17
+    Original cppcheck information:  5
+    Original cppcheck total:        22
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        17
+    Patched cppcheck information:  5
+    Patched cppcheck total:        22
+    Cppcheck total change: 0
+  MATCH: "src/be_class.h" -> "src/be_class.h"
+    Status: unchanged
+    Original size: 2498 bytes
+    Patched size:  2498 bytes
+    Original complexity: 1
+    Patched complexity:  1
+    Complexity change:   0
+    Original functions:  1
+    Patched functions:   1
+    Function change:     0
+    Original SLOC:       48
+    Patched SLOC:        48
+    SLOC change:         0
+    Original comments:   7
+    Patched comments:    7
+    Comment change:      0
+    Original blanks:     7
+    Patched blanks:      7
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 75.24
+    Patched maintainability:  75.24
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        8
+    Original cppcheck information:  4
+    Original cppcheck total:        12
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        8
+    Patched cppcheck information:  4
+    Patched cppcheck total:        12
+    Cppcheck total change: 0
+  MATCH: "src/be_code.c" -> "src/be_code.c"
+    Status: changed
+    Original size: 21628 bytes
+    Patched size:  21667 bytes
+    Diff added lines:   1
+    Diff removed lines: 1
+    Original complexity: 151
+    Patched complexity:  152
+    Complexity change:   1
+    Original functions:  57
+    Patched functions:   57
+    Function change:     0
+    Original SLOC:       706
+    Patched SLOC:        706
+    SLOC change:         0
+    Original comments:   26
+    Patched comments:    26
+    Comment change:      0
+    Original blanks:     65
+    Patched blanks:      65
+    Blank line change:   0
+    Levenshtein distance: 39
+    Similarity:           99.82%
+    Original maintainability: 0
+    Patched maintainability:  0
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        34
+    Original cppcheck information:  6
+    Original cppcheck total:        40
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        34
+    Patched cppcheck information:  6
+    Patched cppcheck total:        40
+    Cppcheck total change: 0
+  MATCH: "src/be_code.h" -> "src/be_code.h"
+    Status: unchanged
+    Original size: 2055 bytes
+    Patched size:  2055 bytes
+    Original complexity: 0
+    Patched complexity:  0
+    Complexity change:   0
+    Original functions:  0
+    Patched functions:   0
+    Function change:     0
+    Original SLOC:       31
+    Patched SLOC:        31
+    SLOC change:         0
+    Original comments:   7
+    Patched comments:    7
+    Comment change:      0
+    Original blanks:     4
+    Patched blanks:      4
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 88.08
+    Patched maintainability:  88.08
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        1
+    Original cppcheck information:  5
+    Original cppcheck total:        6
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        1
+    Patched cppcheck information:  5
+    Patched cppcheck total:        6
+    Cppcheck total change: 0
+  MATCH: "src/be_constobj.h" -> "src/be_constobj.h"
+    Status: unchanged
+    Original size: 7892 bytes
+    Patched size:  7892 bytes
+    Original complexity: 0
+    Patched complexity:  0
+    Complexity change:   0
+    Original functions:  0
+    Patched functions:   0
+    Function change:     0
+    Original SLOC:       153
+    Patched SLOC:        153
+    SLOC change:         0
+    Original comments:   7
+    Patched comments:    7
+    Comment change:      0
+    Original blanks:     36
+    Patched blanks:      36
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 85.64
+    Patched maintainability:  85.64
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        1
+    Original cppcheck information:  5
+    Original cppcheck total:        6
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        1
+    Patched cppcheck information:  5
+    Patched cppcheck total:        6
+    Cppcheck total change: 0
+  MATCH: "src/be_debug.c" -> "src/be_debug.c"
+    Status: unchanged
+    Original size: 11730 bytes
+    Patched size:  11730 bytes
+    Original complexity: 66
+    Patched complexity:  66
+    Complexity change:   0
+    Original functions:  17
+    Patched functions:   17
+    Function change:     0
+    Original SLOC:       350
+    Patched SLOC:        350
+    SLOC change:         0
+    Original comments:   14
+    Patched comments:    14
+    Comment change:      0
+    Original blanks:     24
+    Patched blanks:      24
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 23.4
+    Patched maintainability:  23.4
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        11
+    Original cppcheck information:  8
+    Original cppcheck total:        19
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        11
+    Patched cppcheck information:  8
+    Patched cppcheck total:        19
+    Cppcheck total change: 0
+  MATCH: "src/be_debug.h" -> "src/be_debug.h"
+    Status: unchanged
+    Original size: 810 bytes
+    Patched size:  810 bytes
+    Original complexity: 0
+    Patched complexity:  0
+    Complexity change:   0
+    Original functions:  0
+    Patched functions:   0
+    Function change:     0
+    Original SLOC:       16
+    Patched SLOC:        16
+    SLOC change:         0
+    Original comments:   7
+    Patched comments:    7
+    Comment change:      0
+    Original blanks:     5
+    Patched blanks:      5
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 86.38
+    Patched maintainability:  86.38
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        3
+    Original cppcheck information:  4
+    Original cppcheck total:        7
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        3
+    Patched cppcheck information:  4
+    Patched cppcheck total:        7
+    Cppcheck total change: 0
+  MATCH: "src/be_debuglib.c" -> "src/be_debuglib.c"
+    Status: unchanged
+    Original size: 4666 bytes
+    Patched size:  4666 bytes
+    Original complexity: 32
+    Patched complexity:  32
+    Complexity change:   0
+    Original functions:  15
+    Patched functions:   15
+    Function change:     0
+    Original SLOC:       148
+    Patched SLOC:        148
+    SLOC change:         0
+    Original comments:   19
+    Patched comments:    19
+    Comment change:      0
+    Original blanks:     18
+    Patched blanks:      18
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 72.94
+    Patched maintainability:  72.94
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        0
+    Original cppcheck information:  5
+    Original cppcheck total:        5
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        0
+    Patched cppcheck information:  5
+    Patched cppcheck total:        5
+    Cppcheck total change: 0
+  MATCH: "src/be_decoder.h" -> "src/be_decoder.h"
+    Status: unchanged
+    Original size: 3021 bytes
+    Patched size:  3021 bytes
+    Original complexity: 0
+    Patched complexity:  0
+    Complexity change:   0
+    Original functions:  0
+    Patched functions:   0
+    Function change:     0
+    Original SLOC:       47
+    Patched SLOC:        47
+    SLOC change:         0
+    Original comments:   14
+    Patched comments:    14
+    Comment change:      0
+    Original blanks:     10
+    Patched blanks:      10
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 100
+    Patched maintainability:  100
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        0
+    Original cppcheck information:  0
+    Original cppcheck total:        0
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        0
+    Patched cppcheck information:  0
+    Patched cppcheck total:        0
+    Cppcheck total change: 0
+  MATCH: "src/be_exec.c" -> "src/be_exec.c"
+    Status: unchanged
+    Original size: 13126 bytes
+    Patched size:  13126 bytes
+    Original complexity: 68
+    Patched complexity:  68
+    Complexity change:   0
+    Original functions:  32
+    Patched functions:   32
+    Function change:     0
+    Original SLOC:       407
+    Patched SLOC:        407
+    SLOC change:         0
+    Original comments:   26
+    Patched comments:    26
+    Comment change:      0
+    Original blanks:     46
+    Patched blanks:      46
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 0
+    Patched maintainability:  0
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        26
+    Original cppcheck information:  7
+    Original cppcheck total:        33
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        26
+    Patched cppcheck information:  7
+    Patched cppcheck total:        33
+    Cppcheck total change: 0
+  MATCH: "src/be_exec.h" -> "src/be_exec.h"
+    Status: unchanged
+    Original size: 1877 bytes
+    Patched size:  1877 bytes
+    Original complexity: 0
+    Patched complexity:  0
+    Complexity change:   0
+    Original functions:  0
+    Patched functions:   0
+    Function change:     0
+    Original SLOC:       41
+    Patched SLOC:        41
+    SLOC change:         0
+    Original comments:   11
+    Patched comments:    11
+    Comment change:      0
+    Original blanks:     10
+    Patched blanks:      10
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 76.28
+    Patched maintainability:  76.28
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        7
+    Original cppcheck information:  5
+    Original cppcheck total:        12
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        7
+    Patched cppcheck information:  5
+    Patched cppcheck total:        12
+    Cppcheck total change: 0
+  MATCH: "src/be_filelib.c" -> "src/be_filelib.c"
+    Status: unchanged
+    Original size: 4613 bytes
+    Patched size:  4613 bytes
+    Original complexity: 33
+    Patched complexity:  33
+    Complexity change:   0
+    Original functions:  11
+    Patched functions:   11
+    Function change:     0
+    Original SLOC:       160
+    Patched SLOC:        160
+    SLOC change:         0
+    Original comments:   7
+    Patched comments:    7
+    Comment change:      0
+    Original blanks:     12
+    Patched blanks:      12
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 65
+    Patched maintainability:  65
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        2
+    Original cppcheck information:  6
+    Original cppcheck total:        8
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        2
+    Patched cppcheck information:  6
+    Patched cppcheck total:        8
+    Cppcheck total change: 0
+  MATCH: "src/be_func.c" -> "src/be_func.c"
+    Status: unchanged
+    Original size: 4636 bytes
+    Patched size:  4636 bytes
+    Original complexity: 33
+    Patched complexity:  33
+    Complexity change:   0
+    Original functions:  9
+    Patched functions:   9
+    Function change:     0
+    Original SLOC:       156
+    Patched SLOC:        156
+    SLOC change:         0
+    Original comments:   10
+    Patched comments:    10
+    Comment change:      0
+    Original blanks:     10
+    Patched blanks:      10
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 53.38
+    Patched maintainability:  53.38
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        8
+    Original cppcheck information:  6
+    Original cppcheck total:        14
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        8
+    Patched cppcheck information:  6
+    Patched cppcheck total:        14
+    Cppcheck total change: 0
+  MATCH: "src/be_func.h" -> "src/be_func.h"
+    Status: unchanged
+    Original size: 950 bytes
+    Patched size:  950 bytes
+    Original complexity: 0
+    Patched complexity:  0
+    Complexity change:   0
+    Original functions:  0
+    Patched functions:   0
+    Function change:     0
+    Original SLOC:       15
+    Patched SLOC:        15
+    SLOC change:         0
+    Original comments:   7
+    Patched comments:    7
+    Comment change:      0
+    Original blanks:     5
+    Patched blanks:      5
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 90.4
+    Patched maintainability:  90.4
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        1
+    Original cppcheck information:  4
+    Original cppcheck total:        5
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        1
+    Patched cppcheck information:  4
+    Patched cppcheck total:        5
+    Cppcheck total change: 0
+  MATCH: "src/be_gc.c" -> "src/be_gc.c"
+    Status: unchanged
+    Original size: 15887 bytes
+    Patched size:  15887 bytes
+    Original complexity: 99
+    Patched complexity:  99
+    Complexity change:   0
+    Original functions:  37
+    Patched functions:   37
+    Function change:     0
+    Original SLOC:       492
+    Patched SLOC:        492
+    SLOC change:         0
+    Original comments:   20
+    Patched comments:    20
+    Comment change:      0
+    Original blanks:     42
+    Patched blanks:      42
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 0
+    Patched maintainability:  0
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     1
+    Original cppcheck style:        18
+    Original cppcheck information:  6
+    Original cppcheck total:        25
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     1
+    Patched cppcheck style:        18
+    Patched cppcheck information:  6
+    Patched cppcheck total:        25
+    Cppcheck total change: 0
+  MATCH: "src/be_gc.h" -> "src/be_gc.h"
+    Status: unchanged
+    Original size: 3168 bytes
+    Patched size:  3168 bytes
+    Original complexity: 0
+    Patched complexity:  0
+    Complexity change:   0
+    Original functions:  0
+    Patched functions:   0
+    Function change:     0
+    Original SLOC:       58
+    Patched SLOC:        58
+    SLOC change:         0
+    Original comments:   9
+    Patched comments:    9
+    Comment change:      0
+    Original blanks:     11
+    Patched blanks:      11
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 89.74
+    Patched maintainability:  89.74
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        1
+    Original cppcheck information:  4
+    Original cppcheck total:        5
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        1
+    Patched cppcheck information:  4
+    Patched cppcheck total:        5
+    Cppcheck total change: 0
+  MATCH: "src/be_gclib.c" -> "src/be_gclib.c"
+    Status: unchanged
+    Original size: 1223 bytes
+    Patched size:  1223 bytes
+    Original complexity: 4
+    Patched complexity:  4
+    Complexity change:   0
+    Original functions:  3
+    Patched functions:   3
+    Function change:     0
+    Original SLOC:       28
+    Patched SLOC:        28
+    SLOC change:         0
+    Original comments:   13
+    Patched comments:    13
+    Comment change:      0
+    Original blanks:     6
+    Patched blanks:      6
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 90.74
+    Patched maintainability:  90.74
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        0
+    Original cppcheck information:  4
+    Original cppcheck total:        4
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        0
+    Patched cppcheck information:  4
+    Patched cppcheck total:        4
+    Cppcheck total change: 0
+  MATCH: "src/be_globallib.c" -> "src/be_globallib.c"
+    Status: unchanged
+    Original size: 2303 bytes
+    Patched size:  2303 bytes
+    Original complexity: 12
+    Patched complexity:  12
+    Complexity change:   0
+    Original functions:  5
+    Patched functions:   5
+    Function change:     0
+    Original SLOC:       63
+    Patched SLOC:        63
+    SLOC change:         0
+    Original comments:   14
+    Patched comments:    14
+    Comment change:      0
+    Original blanks:     9
+    Patched blanks:      9
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 84.14
+    Patched maintainability:  84.14
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        0
+    Original cppcheck information:  5
+    Original cppcheck total:        5
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        0
+    Patched cppcheck information:  5
+    Patched cppcheck total:        5
+    Cppcheck total change: 0
+  MATCH: "src/be_jsonlib.c" -> "src/be_jsonlib.c"
+    Status: unchanged
+    Original size: 12253 bytes
+    Patched size:  12253 bytes
+    Original complexity: 101
+    Patched complexity:  101
+    Complexity change:   0
+    Original functions:  23
+    Patched functions:   23
+    Function change:     0
+    Original SLOC:       387
+    Patched SLOC:        387
+    SLOC change:         0
+    Original comments:   22
+    Patched comments:    22
+    Comment change:      0
+    Original blanks:     28
+    Patched blanks:      28
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 27.96
+    Patched maintainability:  27.96
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     1
+    Original cppcheck style:        1
+    Original cppcheck information:  6
+    Original cppcheck total:        8
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     1
+    Patched cppcheck style:        1
+    Patched cppcheck information:  6
+    Patched cppcheck total:        8
+    Cppcheck total change: 0
+  MATCH: "src/be_lexer.c" -> "src/be_lexer.c"
+    Status: unchanged
+    Original size: 16329 bytes
+    Patched size:  16329 bytes
+    Original complexity: 123
+    Patched complexity:  123
+    Complexity change:   0
+    Original functions:  44
+    Patched functions:   44
+    Function change:     0
+    Original SLOC:       559
+    Patched SLOC:        559
+    SLOC change:         0
+    Original comments:   14
+    Patched comments:    14
+    Comment change:      0
+    Original blanks:     49
+    Patched blanks:      49
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 18.72
+    Patched maintainability:  18.72
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        0
+    Original cppcheck information:  5
+    Original cppcheck total:        5
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        0
+    Patched cppcheck information:  5
+    Patched cppcheck total:        5
+    Cppcheck total change: 0
+  MATCH: "src/be_lexer.h" -> "src/be_lexer.h"
+    Status: unchanged
+    Original size: 4321 bytes
+    Patched size:  4321 bytes
+    Original complexity: 0
+    Patched complexity:  0
+    Complexity change:   0
+    Original functions:  0
+    Patched functions:   0
+    Function change:     0
+    Original SLOC:       115
+    Patched SLOC:        115
+    SLOC change:         0
+    Original comments:   14
+    Patched comments:    14
+    Comment change:      0
+    Original blanks:     8
+    Patched blanks:      8
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 45.1
+    Patched maintainability:  45.1
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        23
+    Original cppcheck information:  4
+    Original cppcheck total:        27
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        23
+    Patched cppcheck information:  4
+    Patched cppcheck total:        27
+    Cppcheck total change: 0
+  MATCH: "src/be_libs.c" -> "src/be_libs.c"
+    Status: unchanged
+    Original size: 862 bytes
+    Patched size:  862 bytes
+    Original complexity: 1
+    Patched complexity:  1
+    Complexity change:   0
+    Original functions:  1
+    Patched functions:   1
+    Function change:     0
+    Original SLOC:       18
+    Patched SLOC:        18
+    SLOC change:         0
+    Original comments:   7
+    Patched comments:    7
+    Comment change:      0
+    Original blanks:     2
+    Patched blanks:      2
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 89.84
+    Patched maintainability:  89.84
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        1
+    Original cppcheck information:  4
+    Original cppcheck total:        5
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        1
+    Patched cppcheck information:  4
+    Patched cppcheck total:        5
+    Cppcheck total change: 0
+  MATCH: "src/be_libs.h" -> "src/be_libs.h"
+    Status: unchanged
+    Original size: 483 bytes
+    Patched size:  483 bytes
+    Original complexity: 0
+    Patched complexity:  0
+    Complexity change:   0
+    Original functions:  0
+    Patched functions:   0
+    Function change:     0
+    Original SLOC:       5
+    Patched SLOC:        5
+    SLOC change:         0
+    Original comments:   7
+    Patched comments:    7
+    Comment change:      0
+    Original blanks:     3
+    Patched blanks:      3
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 90.6
+    Patched maintainability:  90.6
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        1
+    Original cppcheck information:  4
+    Original cppcheck total:        5
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        1
+    Patched cppcheck information:  4
+    Patched cppcheck total:        5
+    Cppcheck total change: 0
+  MATCH: "src/be_list.c" -> "src/be_list.c"
+    Status: unchanged
+    Original size: 5453 bytes
+    Patched size:  5453 bytes
+    Original complexity: 38
+    Patched complexity:  38
+    Complexity change:   0
+    Original functions:  13
+    Patched functions:   13
+    Function change:     0
+    Original SLOC:       185
+    Patched SLOC:        185
+    SLOC change:         0
+    Original comments:   8
+    Patched comments:    8
+    Comment change:      0
+    Original blanks:     14
+    Patched blanks:      14
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 28.1
+    Patched maintainability:  28.1
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        19
+    Original cppcheck information:  6
+    Original cppcheck total:        25
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        19
+    Patched cppcheck information:  6
+    Patched cppcheck total:        25
+    Cppcheck total change: 0
+  MATCH: "src/be_list.h" -> "src/be_list.h"
+    Status: unchanged
+    Original size: 1467 bytes
+    Patched size:  1467 bytes
+    Original complexity: 0
+    Patched complexity:  0
+    Complexity change:   0
+    Original functions:  0
+    Patched functions:   0
+    Function change:     0
+    Original SLOC:       27
+    Patched SLOC:        27
+    SLOC change:         0
+    Original comments:   7
+    Patched comments:    7
+    Comment change:      0
+    Original blanks:     5
+    Patched blanks:      5
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 76.16
+    Patched maintainability:  76.16
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        8
+    Original cppcheck information:  4
+    Original cppcheck total:        12
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        8
+    Patched cppcheck information:  4
+    Patched cppcheck total:        12
+    Cppcheck total change: 0
+  MATCH: "src/be_listlib.c" -> "src/be_listlib.c"
+    Status: unchanged
+    Original size: 11920 bytes
+    Patched size:  11920 bytes
+    Original complexity: 64
+    Patched complexity:  64
+    Complexity change:   0
+    Original functions:  29
+    Patched functions:   29
+    Function change:     0
+    Original SLOC:       412
+    Patched SLOC:        412
+    SLOC change:         0
+    Original comments:   42
+    Patched comments:    42
+    Comment change:      0
+    Original blanks:     31
+    Patched blanks:      31
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 37.96
+    Patched maintainability:  37.96
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        6
+    Original cppcheck information:  7
+    Original cppcheck total:        13
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        6
+    Patched cppcheck information:  7
+    Patched cppcheck total:        13
+    Cppcheck total change: 0
+  MATCH: "src/be_map.c" -> "src/be_map.c"
+    Status: unchanged
+    Original size: 9591 bytes
+    Patched size:  9591 bytes
+    Original complexity: 62
+    Patched complexity:  62
+    Complexity change:   0
+    Original functions:  21
+    Patched functions:   21
+    Function change:     0
+    Original SLOC:       311
+    Patched SLOC:        311
+    SLOC change:         0
+    Original comments:   12
+    Patched comments:    12
+    Comment change:      0
+    Original blanks:     27
+    Patched blanks:      27
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 13.98
+    Patched maintainability:  13.98
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        19
+    Original cppcheck information:  6
+    Original cppcheck total:        25
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        19
+    Patched cppcheck information:  6
+    Patched cppcheck total:        25
+    Cppcheck total change: 0
+  MATCH: "src/be_map.h" -> "src/be_map.h"
+    Status: unchanged
+    Original size: 1826 bytes
+    Patched size:  1826 bytes
+    Original complexity: 1
+    Patched complexity:  1
+    Complexity change:   0
+    Original functions:  1
+    Patched functions:   1
+    Function change:     0
+    Original SLOC:       45
+    Patched SLOC:        45
+    SLOC change:         0
+    Original comments:   7
+    Patched comments:    7
+    Comment change:      0
+    Original blanks:     9
+    Patched blanks:      9
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 79.3
+    Patched maintainability:  79.3
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        6
+    Original cppcheck information:  4
+    Original cppcheck total:        10
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        6
+    Patched cppcheck information:  4
+    Patched cppcheck total:        10
+    Cppcheck total change: 0
+  MATCH: "src/be_maplib.c" -> "src/be_maplib.c"
+    Status: unchanged
+    Original size: 6320 bytes
+    Patched size:  6320 bytes
+    Original complexity: 24
+    Patched complexity:  24
+    Complexity change:   0
+    Original functions:  15
+    Patched functions:   15
+    Function change:     0
+    Original SLOC:       196
+    Patched SLOC:        196
+    SLOC change:         0
+    Original comments:   29
+    Patched comments:    29
+    Comment change:      0
+    Original blanks:     17
+    Patched blanks:      17
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 70.98
+    Patched maintainability:  70.98
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        3
+    Original cppcheck information:  5
+    Original cppcheck total:        8
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        3
+    Patched cppcheck information:  5
+    Patched cppcheck total:        8
+    Cppcheck total change: 0
+  MATCH: "src/be_mathlib.c" -> "src/be_mathlib.c"
+    Status: unchanged
+    Original size: 7706 bytes
+    Patched size:  7706 bytes
+    Original complexity: 63
+    Patched complexity:  63
+    Complexity change:   0
+    Original functions:  22
+    Patched functions:   22
+    Function change:     0
+    Original SLOC:       259
+    Patched SLOC:        259
+    SLOC change:         0
+    Original comments:   35
+    Patched comments:    35
+    Comment change:      0
+    Original blanks:     28
+    Patched blanks:      28
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 52.82
+    Patched maintainability:  52.82
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        0
+    Original cppcheck information:  7
+    Original cppcheck total:        7
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        0
+    Patched cppcheck information:  7
+    Patched cppcheck total:        7
+    Cppcheck total change: 0
+  MATCH: "src/be_mem.c" -> "src/be_mem.c"
+    Status: unchanged
+    Original size: 2167 bytes
+    Patched size:  2167 bytes
+    Original complexity: 13
+    Patched complexity:  13
+    Complexity change:   0
+    Original functions:  5
+    Patched functions:   5
+    Function change:     0
+    Original SLOC:       62
+    Patched SLOC:        62
+    SLOC change:         0
+    Original comments:   7
+    Patched comments:    7
+    Comment change:      0
+    Original blanks:     10
+    Patched blanks:      10
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 68.96
+    Patched maintainability:  68.96
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        5
+    Original cppcheck information:  7
+    Original cppcheck total:        12
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        5
+    Patched cppcheck information:  7
+    Patched cppcheck total:        12
+    Cppcheck total change: 0
+  MATCH: "src/be_mem.h" -> "src/be_mem.h"
+    Status: unchanged
+    Original size: 883 bytes
+    Patched size:  883 bytes
+    Original complexity: 0
+    Patched complexity:  0
+    Complexity change:   0
+    Original functions:  0
+    Patched functions:   0
+    Function change:     0
+    Original SLOC:       16
+    Patched SLOC:        16
+    SLOC change:         0
+    Original comments:   7
+    Patched comments:    7
+    Comment change:      0
+    Original blanks:     6
+    Patched blanks:      6
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 90.38
+    Patched maintainability:  90.38
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        1
+    Original cppcheck information:  4
+    Original cppcheck total:        5
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        1
+    Patched cppcheck information:  4
+    Patched cppcheck total:        5
+    Cppcheck total change: 0
+  MATCH: "src/be_module.c" -> "src/be_module.c"
+    Status: unchanged
+    Original size: 10146 bytes
+    Patched size:  10146 bytes
+    Original complexity: 61
+    Patched complexity:  61
+    Complexity change:   0
+    Original functions:  26
+    Patched functions:   26
+    Function change:     0
+    Original SLOC:       356
+    Patched SLOC:        356
+    SLOC change:         0
+    Original comments:   14
+    Patched comments:    14
+    Comment change:      0
+    Original blanks:     36
+    Patched blanks:      36
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 21.78
+    Patched maintainability:  21.78
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        14
+    Original cppcheck information:  7
+    Original cppcheck total:        21
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        14
+    Patched cppcheck information:  7
+    Patched cppcheck total:        21
+    Cppcheck total change: 0
+  MATCH: "src/be_module.h" -> "src/be_module.h"
+    Status: unchanged
+    Original size: 1369 bytes
+    Patched size:  1369 bytes
+    Original complexity: 2
+    Patched complexity:  2
+    Complexity change:   0
+    Original functions:  2
+    Patched functions:   2
+    Function change:     0
+    Original SLOC:       30
+    Patched SLOC:        30
+    SLOC change:         0
+    Original comments:   7
+    Patched comments:    7
+    Comment change:      0
+    Original blanks:     5
+    Patched blanks:      5
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 85.1
+    Patched maintainability:  85.1
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        3
+    Original cppcheck information:  4
+    Original cppcheck total:        7
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        3
+    Patched cppcheck information:  4
+    Patched cppcheck total:        7
+    Cppcheck total change: 0
+  MATCH: "src/be_object.c" -> "src/be_object.c"
+    Status: unchanged
+    Original size: 2070 bytes
+    Patched size:  2070 bytes
+    Original complexity: 10
+    Patched complexity:  10
+    Complexity change:   0
+    Original functions:  4
+    Patched functions:   4
+    Function change:     0
+    Original SLOC:       58
+    Patched SLOC:        58
+    SLOC change:         0
+    Original comments:   8
+    Patched comments:    8
+    Comment change:      0
+    Original blanks:     5
+    Patched blanks:      5
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 72.64
+    Patched maintainability:  72.64
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        6
+    Original cppcheck information:  5
+    Original cppcheck total:        11
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        6
+    Patched cppcheck information:  5
+    Patched cppcheck total:        11
+    Cppcheck total change: 0
+  MATCH: "src/be_object.h" -> "src/be_object.h"
+    Status: unchanged
+    Original size: 8030 bytes
+    Patched size:  8030 bytes
+    Original complexity: 6
+    Patched complexity:  6
+    Complexity change:   0
+    Original functions:  6
+    Patched functions:   6
+    Function change:     0
+    Original SLOC:       197
+    Patched SLOC:        197
+    SLOC change:         0
+    Original comments:   17
+    Patched comments:    17
+    Comment change:      0
+    Original blanks:     27
+    Patched blanks:      27
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 0
+    Patched maintainability:  0
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        68
+    Original cppcheck information:  4
+    Original cppcheck total:        72
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        68
+    Patched cppcheck information:  4
+    Patched cppcheck total:        72
+    Cppcheck total change: 0
+  MATCH: "src/be_opcodes.h" -> "src/be_opcodes.h"
+    Status: unchanged
+    Original size: 3374 bytes
+    Patched size:  3374 bytes
+    Original complexity: 0
+    Patched complexity:  0
+    Complexity change:   0
+    Original functions:  0
+    Patched functions:   0
+    Function change:     0
+    Original SLOC:       46
+    Patched SLOC:        46
+    SLOC change:         0
+    Original comments:   9
+    Patched comments:    9
+    Comment change:      0
+    Original blanks:     0
+    Patched blanks:      0
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 99.98
+    Patched maintainability:  99.98
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        0
+    Original cppcheck information:  0
+    Original cppcheck total:        0
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        0
+    Patched cppcheck information:  0
+    Patched cppcheck total:        0
+    Cppcheck total change: 0
+  MATCH: "src/be_oslib.c" -> "src/be_oslib.c"
+    Status: unchanged
+    Original size: 7068 bytes
+    Patched size:  7068 bytes
+    Original complexity: 54
+    Patched complexity:  54
+    Complexity change:   0
+    Original functions:  15
+    Patched functions:   15
+    Function change:     0
+    Original SLOC:       220
+    Patched SLOC:        220
+    SLOC change:         0
+    Original comments:   29
+    Patched comments:    29
+    Comment change:      0
+    Original blanks:     22
+    Patched blanks:      22
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 53.5
+    Patched maintainability:  53.5
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        1
+    Original cppcheck information:  8
+    Original cppcheck total:        9
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        1
+    Patched cppcheck information:  8
+    Patched cppcheck total:        9
+    Cppcheck total change: 0
+  MATCH: "src/be_parser.c" -> "src/be_parser.c"
+    Status: unchanged
+    Original size: 46205 bytes
+    Patched size:  46205 bytes
+    Original complexity: 221
+    Patched complexity:  221
+    Complexity change:   0
+    Original functions:  89
+    Patched functions:   89
+    Function change:     0
+    Original SLOC:       1342
+    Patched SLOC:        1342
+    SLOC change:         0
+    Original comments:   75
+    Patched comments:    75
+    Comment change:      0
+    Original blanks:     111
+    Patched blanks:      111
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 0
+    Patched maintainability:  0
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        17
+    Original cppcheck information:  5
+    Original cppcheck total:        22
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        17
+    Patched cppcheck information:  5
+    Patched cppcheck total:        22
+    Cppcheck total change: 0
+  MATCH: "src/be_parser.h" -> "src/be_parser.h"
+    Status: unchanged
+    Original size: 2480 bytes
+    Patched size:  2480 bytes
+    Original complexity: 0
+    Patched complexity:  0
+    Complexity change:   0
+    Original functions:  0
+    Patched functions:   0
+    Function change:     0
+    Original SLOC:       72
+    Patched SLOC:        72
+    SLOC change:         0
+    Original comments:   8
+    Patched comments:    8
+    Comment change:      0
+    Original blanks:     8
+    Patched blanks:      8
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 19.36
+    Patched maintainability:  19.36
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        35
+    Original cppcheck information:  5
+    Original cppcheck total:        40
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        35
+    Patched cppcheck information:  5
+    Patched cppcheck total:        40
+    Cppcheck total change: 0
+  MATCH: "src/be_rangelib.c" -> "src/be_rangelib.c"
+    Status: unchanged
+    Original size: 3139 bytes
+    Patched size:  3139 bytes
+    Original complexity: 9
+    Patched complexity:  9
+    Complexity change:   0
+    Original functions:  8
+    Patched functions:   8
+    Function change:     0
+    Original SLOC:       94
+    Patched SLOC:        94
+    SLOC change:         0
+    Original comments:   21
+    Patched comments:    21
+    Comment change:      0
+    Original blanks:     8
+    Patched blanks:      8
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 83.72
+    Patched maintainability:  83.72
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        2
+    Original cppcheck information:  4
+    Original cppcheck total:        6
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        2
+    Patched cppcheck information:  4
+    Patched cppcheck total:        6
+    Cppcheck total change: 0
+  MATCH: "src/be_repl.c" -> "src/be_repl.c"
+    Status: unchanged
+    Original size: 3424 bytes
+    Patched size:  3424 bytes
+    Original complexity: 17
+    Patched complexity:  17
+    Complexity change:   0
+    Original functions:  5
+    Patched functions:   5
+    Function change:     0
+    Original SLOC:       90
+    Patched SLOC:        90
+    SLOC change:         0
+    Original comments:   8
+    Patched comments:    8
+    Comment change:      0
+    Original blanks:     8
+    Patched blanks:      8
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 80.5
+    Patched maintainability:  80.5
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        0
+    Original cppcheck information:  5
+    Original cppcheck total:        5
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        0
+    Patched cppcheck information:  5
+    Patched cppcheck total:        5
+    Cppcheck total change: 0
+  MATCH: "src/be_repl.h" -> "src/be_repl.h"
+    Status: unchanged
+    Original size: 683 bytes
+    Patched size:  683 bytes
+    Original complexity: 0
+    Patched complexity:  0
+    Complexity change:   0
+    Original functions:  0
+    Patched functions:   0
+    Function change:     0
+    Original SLOC:       13
+    Patched SLOC:        13
+    SLOC change:         0
+    Original comments:   7
+    Patched comments:    7
+    Comment change:      0
+    Original blanks:     6
+    Patched blanks:      6
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 90.44
+    Patched maintainability:  90.44
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        1
+    Original cppcheck information:  4
+    Original cppcheck total:        5
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        1
+    Patched cppcheck information:  4
+    Patched cppcheck total:        5
+    Cppcheck total change: 0
+  MATCH: "src/be_solidifylib.c" -> "src/be_solidifylib.c"
+    Status: unchanged
+    Original size: 7257 bytes
+    Patched size:  7257 bytes
+    Original complexity: 33
+    Patched complexity:  33
+    Complexity change:   0
+    Original functions:  5
+    Patched functions:   5
+    Function change:     0
+    Original SLOC:       156
+    Patched SLOC:        156
+    SLOC change:         0
+    Original comments:   21
+    Patched comments:    21
+    Comment change:      0
+    Original blanks:     26
+    Patched blanks:      26
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 70.48
+    Patched maintainability:  70.48
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        0
+    Original cppcheck information:  6
+    Original cppcheck total:        6
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        0
+    Patched cppcheck information:  6
+    Patched cppcheck total:        6
+    Cppcheck total change: 0
+  MATCH: "src/be_string.c" -> "src/be_string.c"
+    Status: unchanged
+    Original size: 8460 bytes
+    Patched size:  8460 bytes
+    Original complexity: 62
+    Patched complexity:  62
+    Complexity change:   0
+    Original functions:  16
+    Patched functions:   16
+    Function change:     0
+    Original SLOC:       259
+    Patched SLOC:        259
+    SLOC change:         0
+    Original comments:   16
+    Patched comments:    16
+    Comment change:      0
+    Original blanks:     22
+    Patched blanks:      22
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 21.42
+    Patched maintainability:  21.42
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        16
+    Original cppcheck information:  6
+    Original cppcheck total:        22
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        16
+    Patched cppcheck information:  6
+    Patched cppcheck total:        22
+    Cppcheck total change: 0
+  MATCH: "src/be_string.h" -> "src/be_string.h"
+    Status: unchanged
+    Original size: 1547 bytes
+    Patched size:  1547 bytes
+    Original complexity: 0
+    Patched complexity:  0
+    Complexity change:   0
+    Original functions:  0
+    Patched functions:   0
+    Function change:     0
+    Original SLOC:       38
+    Patched SLOC:        38
+    SLOC change:         0
+    Original comments:   9
+    Patched comments:    9
+    Comment change:      0
+    Original blanks:     10
+    Patched blanks:      10
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 60.14
+    Patched maintainability:  60.14
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        15
+    Original cppcheck information:  5
+    Original cppcheck total:        20
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        15
+    Patched cppcheck information:  5
+    Patched cppcheck total:        20
+    Cppcheck total change: 0
+  MATCH: "src/be_strlib.c" -> "src/be_strlib.c"
+    Status: unchanged
+    Original size: 22279 bytes
+    Patched size:  22279 bytes
+    Original complexity: 163
+    Patched complexity:  163
+    Complexity change:   0
+    Original functions:  41
+    Patched functions:   41
+    Function change:     0
+    Original SLOC:       674
+    Patched SLOC:        674
+    SLOC change:         0
+    Original comments:   61
+    Patched comments:    61
+    Comment change:      0
+    Original blanks:     48
+    Patched blanks:      48
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 0
+    Patched maintainability:  0
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        13
+    Original cppcheck information:  11
+    Original cppcheck total:        24
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        13
+    Patched cppcheck information:  11
+    Patched cppcheck total:        24
+    Cppcheck total change: 0
+  MATCH: "src/be_strlib.h" -> "src/be_strlib.h"
+    Status: unchanged
+    Original size: 1001 bytes
+    Patched size:  1001 bytes
+    Original complexity: 0
+    Patched complexity:  0
+    Complexity change:   0
+    Original functions:  0
+    Patched functions:   0
+    Function change:     0
+    Original SLOC:       20
+    Patched SLOC:        20
+    SLOC change:         0
+    Original comments:   7
+    Patched comments:    7
+    Comment change:      0
+    Original blanks:     5
+    Patched blanks:      5
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 88.3
+    Patched maintainability:  88.3
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        1
+    Original cppcheck information:  5
+    Original cppcheck total:        6
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        1
+    Patched cppcheck information:  5
+    Patched cppcheck total:        6
+    Cppcheck total change: 0
+  MATCH: "src/be_sys.h" -> "src/be_sys.h"
+    Status: unchanged
+    Original size: 1414 bytes
+    Patched size:  1414 bytes
+    Original complexity: 0
+    Patched complexity:  0
+    Complexity change:   0
+    Original functions:  0
+    Patched functions:   0
+    Function change:     0
+    Original SLOC:       34
+    Patched SLOC:        34
+    SLOC change:         0
+    Original comments:   8
+    Patched comments:    8
+    Comment change:      0
+    Original blanks:     6
+    Patched blanks:      6
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 92.12
+    Patched maintainability:  92.12
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        3
+    Original cppcheck information:  1
+    Original cppcheck total:        4
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        3
+    Patched cppcheck information:  1
+    Patched cppcheck total:        4
+    Cppcheck total change: 0
+  MATCH: "src/be_syslib.c" -> "src/be_syslib.c"
+    Status: unchanged
+    Original size: 952 bytes
+    Patched size:  952 bytes
+    Original complexity: 2
+    Patched complexity:  2
+    Complexity change:   0
+    Original functions:  2
+    Patched functions:   2
+    Function change:     0
+    Original SLOC:       19
+    Patched SLOC:        19
+    SLOC change:         0
+    Original comments:   12
+    Patched comments:    12
+    Comment change:      0
+    Original blanks:     5
+    Patched blanks:      5
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 91.82
+    Patched maintainability:  91.82
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        0
+    Original cppcheck information:  4
+    Original cppcheck total:        4
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        0
+    Patched cppcheck information:  4
+    Patched cppcheck total:        4
+    Cppcheck total change: 0
+  MATCH: "src/be_timelib.c" -> "src/be_timelib.c"
+    Status: unchanged
+    Original size: 1922 bytes
+    Patched size:  1922 bytes
+    Original complexity: 7
+    Patched complexity:  7
+    Complexity change:   0
+    Original functions:  5
+    Patched functions:   5
+    Function change:     0
+    Original SLOC:       49
+    Patched SLOC:        49
+    SLOC change:         0
+    Original comments:   14
+    Patched comments:    14
+    Comment change:      0
+    Original blanks:     8
+    Patched blanks:      8
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 84.92
+    Patched maintainability:  84.92
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        1
+    Original cppcheck information:  5
+    Original cppcheck total:        6
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        1
+    Patched cppcheck information:  5
+    Patched cppcheck total:        6
+    Cppcheck total change: 0
+  MATCH: "src/be_var.c" -> "src/be_var.c"
+    Status: unchanged
+    Original size: 3816 bytes
+    Patched size:  3816 bytes
+    Original complexity: 21
+    Patched complexity:  21
+    Complexity change:   0
+    Original functions:  12
+    Patched functions:   12
+    Function change:     0
+    Original SLOC:       119
+    Patched SLOC:        119
+    SLOC change:         0
+    Original comments:   10
+    Patched comments:    10
+    Comment change:      0
+    Original blanks:     13
+    Patched blanks:      13
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 58.12
+    Patched maintainability:  58.12
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        11
+    Original cppcheck information:  4
+    Original cppcheck total:        15
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        11
+    Patched cppcheck information:  4
+    Patched cppcheck total:        15
+    Cppcheck total change: 0
+  MATCH: "src/be_var.h" -> "src/be_var.h"
+    Status: unchanged
+    Original size: 1105 bytes
+    Patched size:  1105 bytes
+    Original complexity: 0
+    Patched complexity:  0
+    Complexity change:   0
+    Original functions:  0
+    Patched functions:   0
+    Function change:     0
+    Original SLOC:       19
+    Patched SLOC:        19
+    SLOC change:         0
+    Original comments:   7
+    Patched comments:    7
+    Comment change:      0
+    Original blanks:     5
+    Patched blanks:      5
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 90.32
+    Patched maintainability:  90.32
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        1
+    Original cppcheck information:  4
+    Original cppcheck total:        5
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        1
+    Patched cppcheck information:  4
+    Patched cppcheck total:        5
+    Cppcheck total change: 0
+  MATCH: "src/be_vector.c" -> "src/be_vector.c"
+    Status: unchanged
+    Original size: 4504 bytes
+    Patched size:  4504 bytes
+    Original complexity: 23
+    Patched complexity:  23
+    Complexity change:   0
+    Original functions:  12
+    Patched functions:   12
+    Function change:     0
+    Original SLOC:       128
+    Patched SLOC:        128
+    SLOC change:         0
+    Original comments:   13
+    Patched comments:    13
+    Comment change:      0
+    Original blanks:     12
+    Patched blanks:      12
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 53.24
+    Patched maintainability:  53.24
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        11
+    Original cppcheck information:  6
+    Original cppcheck total:        17
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        11
+    Patched cppcheck information:  6
+    Patched cppcheck total:        17
+    Cppcheck total change: 0
+  MATCH: "src/be_vector.h" -> "src/be_vector.h"
+    Status: unchanged
+    Original size: 2123 bytes
+    Patched size:  2123 bytes
+    Original complexity: 0
+    Patched complexity:  0
+    Complexity change:   0
+    Original functions:  0
+    Patched functions:   0
+    Function change:     0
+    Original SLOC:       30
+    Patched SLOC:        30
+    SLOC change:         0
+    Original comments:   9
+    Patched comments:    9
+    Comment change:      0
+    Original blanks:     4
+    Patched blanks:      4
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 90.3
+    Patched maintainability:  90.3
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        1
+    Original cppcheck information:  4
+    Original cppcheck total:        5
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        1
+    Patched cppcheck information:  4
+    Patched cppcheck total:        5
+    Cppcheck total change: 0
+  MATCH: "src/be_vm.c" -> "src/be_vm.c"
+    Status: unchanged
+    Original size: 37525 bytes
+    Patched size:  37525 bytes
+    Original complexity: 149
+    Patched complexity:  149
+    Complexity change:   0
+    Original functions:  33
+    Patched functions:   33
+    Function change:     0
+    Original SLOC:       1071
+    Patched SLOC:        1071
+    SLOC change:         0
+    Original comments:   22
+    Patched comments:    22
+    Comment change:      0
+    Original blanks:     47
+    Patched blanks:      47
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 0
+    Patched maintainability:  0
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        31
+    Original cppcheck information:  9
+    Original cppcheck total:        40
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        31
+    Patched cppcheck information:  9
+    Patched cppcheck total:        40
+    Cppcheck total change: 0
+  MATCH: "src/be_vm.h" -> "src/be_vm.h"
+    Status: unchanged
+    Original size: 3355 bytes
+    Patched size:  3355 bytes
+    Original complexity: 0
+    Patched complexity:  0
+    Complexity change:   0
+    Original functions:  0
+    Patched functions:   0
+    Function change:     0
+    Original SLOC:       92
+    Patched SLOC:        92
+    SLOC change:         0
+    Original comments:   7
+    Patched comments:    7
+    Comment change:      0
+    Original blanks:     12
+    Patched blanks:      12
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 0
+    Patched maintainability:  0
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        52
+    Original cppcheck information:  4
+    Original cppcheck total:        56
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        52
+    Patched cppcheck information:  4
+    Patched cppcheck total:        56
+    Cppcheck total change: 0
+  MATCH: "src/berry.h" -> "src/berry.h"
+    Status: unchanged
+    Original size: 19377 bytes
+    Patched size:  19377 bytes
+    Original complexity: 0
+    Patched complexity:  0
+    Complexity change:   0
+    Original functions:  0
+    Patched functions:   0
+    Function change:     0
+    Original SLOC:       419
+    Patched SLOC:        419
+    SLOC change:         0
+    Original comments:   40
+    Patched comments:    40
+    Comment change:      0
+    Original blanks:     74
+    Patched blanks:      74
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 61.62
+    Patched maintainability:  61.62
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        13
+    Original cppcheck information:  4
+    Original cppcheck total:        17
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        13
+    Patched cppcheck information:  4
+    Patched cppcheck total:        17
+    Cppcheck total change: 0
+  MATCH: "tools/coc/block_builder.cpp" -> "tools/coc/block_builder.cpp"
+    Status: unchanged
+    Original size: 6049 bytes
+    Patched size:  6049 bytes
+    Original complexity: 37
+    Patched complexity:  37
+    Complexity change:   0
+    Original functions:  14
+    Patched functions:   14
+    Function change:     0
+    Original SLOC:       172
+    Patched SLOC:        172
+    SLOC change:         0
+    Original comments:   7
+    Patched comments:    7
+    Comment change:      0
+    Original blanks:     24
+    Patched blanks:      24
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 30.76
+    Patched maintainability:  30.76
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        11
+    Original cppcheck information:  13
+    Original cppcheck total:        24
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        11
+    Patched cppcheck information:  13
+    Patched cppcheck total:        24
+    Cppcheck total change: 0
+  MATCH: "tools/coc/block_builder.h" -> "tools/coc/block_builder.h"
+    Status: unchanged
+    Original size: 1598 bytes
+    Patched size:  1598 bytes
+    Original complexity: 0
+    Patched complexity:  0
+    Complexity change:   0
+    Original functions:  0
+    Patched functions:   0
+    Function change:     0
+    Original SLOC:       35
+    Patched SLOC:        35
+    SLOC change:         0
+    Original comments:   7
+    Patched comments:    7
+    Comment change:      0
+    Original blanks:     7
+    Patched blanks:      7
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 78
+    Patched maintainability:  78
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        6
+    Original cppcheck information:  5
+    Original cppcheck total:        11
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        6
+    Patched cppcheck information:  5
+    Patched cppcheck total:        11
+    Cppcheck total change: 0
+  MATCH: "tools/coc/coc_parser.cpp" -> "tools/coc/coc_parser.cpp"
+    Status: unchanged
+    Original size: 4331 bytes
+    Patched size:  4331 bytes
+    Original complexity: 44
+    Patched complexity:  44
+    Complexity change:   0
+    Original functions:  18
+    Patched functions:   18
+    Function change:     0
+    Original SLOC:       164
+    Patched SLOC:        164
+    SLOC change:         0
+    Original comments:   7
+    Patched comments:    7
+    Comment change:      0
+    Original blanks:     18
+    Patched blanks:      18
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 59.42
+    Patched maintainability:  59.42
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        3
+    Original cppcheck information:  5
+    Original cppcheck total:        8
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        3
+    Patched cppcheck information:  5
+    Patched cppcheck total:        8
+    Cppcheck total change: 0
+  MATCH: "tools/coc/coc_parser.h" -> "tools/coc/coc_parser.h"
+    Status: unchanged
+    Original size: 1455 bytes
+    Patched size:  1455 bytes
+    Original complexity: 1
+    Patched complexity:  1
+    Complexity change:   0
+    Original functions:  1
+    Patched functions:   1
+    Function change:     0
+    Original SLOC:       34
+    Patched SLOC:        34
+    SLOC change:         0
+    Original comments:   7
+    Patched comments:    7
+    Comment change:      0
+    Original blanks:     5
+    Patched blanks:      5
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 81.52
+    Patched maintainability:  81.52
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        5
+    Original cppcheck information:  4
+    Original cppcheck total:        9
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        5
+    Patched cppcheck information:  4
+    Patched cppcheck total:        9
+    Cppcheck total change: 0
+  MATCH: "tools/coc/coc_string.cpp" -> "tools/coc/coc_string.cpp"
+    Status: unchanged
+    Original size: 1560 bytes
+    Patched size:  1560 bytes
+    Original complexity: 8
+    Patched complexity:  8
+    Complexity change:   0
+    Original functions:  2
+    Patched functions:   2
+    Function change:     0
+    Original SLOC:       37
+    Patched SLOC:        37
+    SLOC change:         0
+    Original comments:   7
+    Patched comments:    7
+    Comment change:      0
+    Original blanks:     4
+    Patched blanks:      4
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 87.96
+    Patched maintainability:  87.96
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        2
+    Original cppcheck information:  2
+    Original cppcheck total:        4
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        2
+    Patched cppcheck information:  2
+    Patched cppcheck total:        4
+    Cppcheck total change: 0
+  MATCH: "tools/coc/coc_string.h" -> "tools/coc/coc_string.h"
+    Status: unchanged
+    Original size: 593 bytes
+    Patched size:  593 bytes
+    Original complexity: 0
+    Patched complexity:  0
+    Complexity change:   0
+    Original functions:  0
+    Patched functions:   0
+    Function change:     0
+    Original SLOC:       8
+    Patched SLOC:        8
+    SLOC change:         0
+    Original comments:   7
+    Patched comments:    7
+    Comment change:      0
+    Original blanks:     3
+    Patched blanks:      3
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 98.54
+    Patched maintainability:  98.54
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        0
+    Original cppcheck information:  1
+    Original cppcheck total:        1
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        0
+    Patched cppcheck information:  1
+    Patched cppcheck total:        1
+    Cppcheck total change: 0
+  MATCH: "tools/coc/hash_map.cpp" -> "tools/coc/hash_map.cpp"
+    Status: unchanged
+    Original size: 3970 bytes
+    Patched size:  3970 bytes
+    Original complexity: 33
+    Patched complexity:  33
+    Complexity change:   0
+    Original functions:  12
+    Patched functions:   12
+    Function change:     0
+    Original SLOC:       137
+    Patched SLOC:        137
+    SLOC change:         0
+    Original comments:   9
+    Patched comments:    9
+    Comment change:      0
+    Original blanks:     15
+    Patched blanks:      15
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 53.66
+    Patched maintainability:  53.66
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        10
+    Original cppcheck information:  4
+    Original cppcheck total:        14
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        10
+    Patched cppcheck information:  4
+    Patched cppcheck total:        14
+    Cppcheck total change: 0
+  MATCH: "tools/coc/hash_map.h" -> "tools/coc/hash_map.h"
+    Status: unchanged
+    Original size: 1334 bytes
+    Patched size:  1334 bytes
+    Original complexity: 0
+    Patched complexity:  0
+    Complexity change:   0
+    Original functions:  0
+    Patched functions:   0
+    Function change:     0
+    Original SLOC:       33
+    Patched SLOC:        33
+    SLOC change:         0
+    Original comments:   7
+    Patched comments:    7
+    Comment change:      0
+    Original blanks:     7
+    Patched blanks:      7
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 86.04
+    Patched maintainability:  86.04
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        4
+    Original cppcheck information:  3
+    Original cppcheck total:        7
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        4
+    Patched cppcheck information:  3
+    Patched cppcheck total:        7
+    Cppcheck total change: 0
+  MATCH: "tools/coc/macro_table.cpp" -> "tools/coc/macro_table.cpp"
+    Status: unchanged
+    Original size: 1751 bytes
+    Patched size:  1751 bytes
+    Original complexity: 12
+    Patched complexity:  12
+    Complexity change:   0
+    Original functions:  5
+    Patched functions:   5
+    Function change:     0
+    Original SLOC:       47
+    Patched SLOC:        47
+    SLOC change:         0
+    Original comments:   7
+    Patched comments:    7
+    Comment change:      0
+    Original blanks:     5
+    Patched blanks:      5
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 71.76
+    Patched maintainability:  71.76
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        5
+    Original cppcheck information:  6
+    Original cppcheck total:        11
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        5
+    Patched cppcheck information:  6
+    Patched cppcheck total:        11
+    Cppcheck total change: 0
+  MATCH: "tools/coc/macro_table.h" -> "tools/coc/macro_table.h"
+    Status: unchanged
+    Original size: 874 bytes
+    Patched size:  874 bytes
+    Original complexity: 1
+    Patched complexity:  1
+    Complexity change:   0
+    Original functions:  1
+    Patched functions:   1
+    Function change:     0
+    Original SLOC:       18
+    Patched SLOC:        18
+    SLOC change:         0
+    Original comments:   7
+    Patched comments:    7
+    Comment change:      0
+    Original blanks:     5
+    Patched blanks:      5
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 91.84
+    Patched maintainability:  91.84
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        1
+    Original cppcheck information:  3
+    Original cppcheck total:        4
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        1
+    Patched cppcheck information:  3
+    Patched cppcheck total:        4
+    Cppcheck total change: 0
+  MATCH: "tools/coc/main.cpp" -> "tools/coc/main.cpp"
+    Status: unchanged
+    Original size: 3292 bytes
+    Patched size:  3292 bytes
+    Original complexity: 24
+    Patched complexity:  24
+    Complexity change:   0
+    Original functions:  9
+    Patched functions:   9
+    Function change:     0
+    Original SLOC:       124
+    Patched SLOC:        124
+    SLOC change:         0
+    Original comments:   7
+    Patched comments:    7
+    Comment change:      0
+    Original blanks:     10
+    Patched blanks:      10
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 24.22
+    Patched maintainability:  24.22
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     2
+    Original cppcheck style:        6
+    Original cppcheck information:  23
+    Original cppcheck total:        31
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     2
+    Patched cppcheck style:        6
+    Patched cppcheck information:  23
+    Patched cppcheck total:        31
+    Cppcheck total change: 0
+  MATCH: "tools/coc/main.h" -> "tools/coc/main.h"
+    Status: unchanged
+    Original size: 1195 bytes
+    Patched size:  1195 bytes
+    Original complexity: 0
+    Patched complexity:  0
+    Complexity change:   0
+    Original functions:  0
+    Patched functions:   0
+    Function change:     0
+    Original SLOC:       32
+    Patched SLOC:        32
+    SLOC change:         0
+    Original comments:   7
+    Patched comments:    7
+    Comment change:      0
+    Original blanks:     6
+    Patched blanks:      6
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 82.06
+    Patched maintainability:  82.06
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        6
+    Original cppcheck information:  3
+    Original cppcheck total:        9
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        6
+    Patched cppcheck information:  3
+    Patched cppcheck total:        9
+    Cppcheck total change: 0
+  MATCH: "tools/coc/object_block.h" -> "tools/coc/object_block.h"
+    Status: unchanged
+    Original size: 728 bytes
+    Patched size:  728 bytes
+    Original complexity: 0
+    Patched complexity:  0
+    Complexity change:   0
+    Original functions:  0
+    Patched functions:   0
+    Function change:     0
+    Original SLOC:       15
+    Patched SLOC:        15
+    SLOC change:         0
+    Original comments:   7
+    Patched comments:    7
+    Comment change:      0
+    Original blanks:     3
+    Patched blanks:      3
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 84.4
+    Patched maintainability:  84.4
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        6
+    Original cppcheck information:  2
+    Original cppcheck total:        8
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        6
+    Patched cppcheck information:  2
+    Patched cppcheck total:        8
+    Cppcheck total change: 0
+  MATCH: "tools/coc/str_build.cpp" -> "tools/coc/str_build.cpp"
+    Status: unchanged
+    Original size: 4124 bytes
+    Patched size:  4124 bytes
+    Original complexity: 20
+    Patched complexity:  20
+    Complexity change:   0
+    Original functions:  8
+    Patched functions:   8
+    Function change:     0
+    Original SLOC:       114
+    Patched SLOC:        114
+    SLOC change:         0
+    Original comments:   7
+    Patched comments:    7
+    Comment change:      0
+    Original blanks:     8
+    Patched blanks:      8
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 70.42
+    Patched maintainability:  70.42
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        3
+    Original cppcheck information:  6
+    Original cppcheck total:        9
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        3
+    Patched cppcheck information:  6
+    Patched cppcheck total:        9
+    Cppcheck total change: 0
+  MATCH: "tools/coc/str_build.h" -> "tools/coc/str_build.h"
+    Status: unchanged
+    Original size: 1048 bytes
+    Patched size:  1048 bytes
+    Original complexity: 0
+    Patched complexity:  0
+    Complexity change:   0
+    Original functions:  0
+    Patched functions:   0
+    Function change:     0
+    Original SLOC:       27
+    Patched SLOC:        27
+    SLOC change:         0
+    Original comments:   7
+    Patched comments:    7
+    Comment change:      0
+    Original blanks:     5
+    Patched blanks:      5
+    Blank line change:   0
+    Levenshtein distance: 0
+    Similarity:           100%
+    Original maintainability: 82.16
+    Patched maintainability:  82.16
+    Maintainability change:   0
+    Original cppcheck errors:       0
+    Original cppcheck warnings:     0
+    Original cppcheck style:        6
+    Original cppcheck information:  3
+    Original cppcheck total:        9
+    Patched cppcheck errors:       0
+    Patched cppcheck warnings:     0
+    Patched cppcheck style:        6
+    Patched cppcheck information:  3
+    Patched cppcheck total:        9
+    Cppcheck total change: 0
+
+Only in original:
+
+Only in patched:
+
+Possible renamed or similarly named files with metrics:
+  None detected
+
+Comparison summary:
+  Original files:                    82
+  Patched files:                     82
+  Matched files:                     82
+  Only original:                     0
+  Only patched:                      0
+  Possible rename candidates:        0
+  Matched changed files:             1
+  Matched unchanged files:           81
+  Matched diff added lines:          1
+  Matched diff removed lines:        1
+  Matched original complexity:       2648
+  Matched patched complexity:        2649
+  Matched complexity change:         1
+  Matched original functions:        980
+  Matched patched functions:         980
+  Matched function change:           0
+  Matched original SLOC:             15448
+  Matched patched SLOC:              15448
+  Matched SLOC change:               0
+  Matched original comments:         1356
+  Matched patched comments:          1356
+  Matched comment change:            0
+  Matched original blanks:           1589
+  Matched patched blanks:            1589
+  Matched blank line change:         0
+  Matched original cppcheck total:   1222
+  Matched patched cppcheck total:    1222
+  Matched cppcheck total change:     0
+  Rename changed files:              0
+  Rename unchanged files:            0
+  Rename diff added lines:           0
+  Rename diff removed lines:         0
+  Rename original complexity:        0
+  Rename patched complexity:         0
+  Rename complexity change:          0
+  Rename original functions:         0
+  Rename patched functions:          0
+  Rename function change:            0
+  Rename original SLOC:              0
+  Rename patched SLOC:               0
+  Rename SLOC change:                0
+  Rename original comments:          0
+  Rename patched comments:           0
+  Rename comment change:             0
+  Rename original blanks:            0
+  Rename patched blanks:             0
+  Rename blank line change:          0
+  Rename original cppcheck total:    0
+  Rename patched cppcheck total:     0
+  Rename cppcheck total change:      0
+
+Structural impact:
+  Complexity change percent:   0.0377644%
+  Function change percent:     0%
+  SLOC change percent:         0%
+  Average similarity percent:  99.9978%
+  Structural score:            99.9845/100
+
+Quality impact:
+  Average maintainability change: 0
+  Cppcheck findings change:       0
+  Build status changed:           no
+  Patched build failed:           no
+  Quality score:                  100/100
+
+Overall patch evaluation:
+  Static/structural score:        99.9845/100
+  Dynamic/behavioral score:       N/A (not measured)
+  To perform dynamic analysis:    ./patchimpact -dm <original_executable> <patched_executable>
+  Quality score:                  100/100
+  Overall patch score:            99.9922/100
+  Grade:                          A
+  Risk level:                     Low

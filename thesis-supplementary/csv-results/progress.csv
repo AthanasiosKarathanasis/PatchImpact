@@ -1,0 +1,6 @@
+project,bug,status,report
+berry,1,done,~/PatchImpactResults/berry_1_report.txt
+berry,2,done,~/PatchImpactResults/berry_2_report.txt
+berry,3,done,~/PatchImpactResults/berry_3_report.txt
+berry,4,done,/home/nasos/PatchImpactResults/berry_4_report.txt
+berry,5,done,/home/nasos/PatchImpactResults/berry_5_report.txt

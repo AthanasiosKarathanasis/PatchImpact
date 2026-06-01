@@ -1,0 +1,10 @@
+Mini mass assessment summary
+
+Total rows: 28436
+Source-pair rows: 28056
+Executable-pair rows: 380
+Average structural score: 94.46 / 100
+Average quality score: 95.75 / 100
+
+Note:
+The CSV was used for metric aggregation. Final grade and risk-level values were verified using the generated report files.

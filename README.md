@@ -38,3 +38,11 @@ This repository supports reproducibility for the PatchImpact framework. The thes
 ## Notes
 
 PatchImpact is a research prototype. It supports patch-impact evaluation and decision support, but it does not prove semantic correctness and does not replace testing or code review.
+
+## Thesis Supplementary Material
+
+Additional thesis artefacts, generated reports, CSV outputs, raw outputs, and dataset notes are available in:
+
+[`thesis-supplementary/`](thesis-supplementary/)
+
+These files support transparency and reproducibility for the MSc thesis *Measuring Software Patch Impact in Open Source Projects: A Heuristic-Based Evaluation Framework*.
