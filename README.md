@@ -46,3 +46,9 @@ Additional thesis artefacts, generated reports, CSV outputs, raw outputs, and da
 [`thesis-supplementary/`](thesis-supplementary/)
 
 These files support transparency and reproducibility for the MSc thesis *Measuring Software Patch Impact in Open Source Projects: A Heuristic-Based Evaluation Framework*.
+
+## Thesis Document
+
+A public copy of the thesis document is available in:
+
+[`thesis-document/`](thesis-document/)
